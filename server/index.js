@@ -4,9 +4,15 @@ const app = express();
 // This lets your server understand JSON
 app.use(express.json());
 
-// 🔗 Import and mount your card routes BEFORE starting the server
+//"Any route inside cardRoutes.js will be prefixed with /api/cards"
 const cardRoutes = require('./routes/cardRoutes');
 app.use('/api', cardRoutes);
+//“Any route inside playerRoute.js will be prefixed with /api/player"
+const playerRoutes = require('./routes/playerRoutes');
+app.use('/api/player', playerRoutes);
+
+const leaderboardRoutes = require('./routes/leaderboardRoutes');
+app.use('/api/leaderboard', leaderboardRoutes);
 
 // This is where your prediction route will go
 app.post('/predict', (req, res) => {
