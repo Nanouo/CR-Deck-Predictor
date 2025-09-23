@@ -7,12 +7,12 @@ app.use(express.json());
 //"Any route inside cardRoutes.js will be prefixed with /api/cards"
 const cardRoutes = require('./routes/cardRoutes');
 app.use('/api', cardRoutes);
-//“Any route inside playerRoute.js will be prefixed with /api/player"
-const playerRoutes = require('./routes/playerRoutes');
-app.use('/api/player', playerRoutes);
 
-const leaderboardRoutes = require('./routes/leaderboardRoutes');
-app.use('/api/leaderboard', leaderboardRoutes);
+/*const playerRoutes = require('./routes/playerRoutes');
+app.use('/api/player', playerRoutes);*/
+
+const topPlayersRoutes = require('./routes/topPlayersRoutes');
+app.use('/api/top-players', topPlayersRoutes);
 
 // This is where your prediction route will go
 app.post('/predict', (req, res) => {
