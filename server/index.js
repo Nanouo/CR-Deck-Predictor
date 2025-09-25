@@ -2,6 +2,10 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+//MongoDB 
+const connectDB = require('./db');
+connectDB();
+
 // This lets your server understand JSON
 app.use(express.json());
 

@@ -1,18 +1,18 @@
 [
     {
         "name": "Tower Princess",
-        "iconUrls": 
+        "iconUrls": "https://static.wikia.nocookie.net/clashroyale/images/8/88/TowerPrincessCard.png/revision/latest/top-crop/width/200/height/150?cb=20250123220202"
     },
     {
         "name": "Cannoneer",
-        "iconUrls": 
+        "iconUrls": "https://static.wikia.nocookie.net/clashroyale/images/a/a2/CannoneerCard.png/revision/latest/top-crop/width/200/height/150?cb=20241001072932"
     },
     {
         "name": "Dagger Duchess",
-        "iconUrls": 
+        "iconUrls": "https://static.wikia.nocookie.net/clashroyale/images/9/9b/DaggerDuchessCard.png/revision/latest/top-crop/width/200/height/150?cb=20250123215653"
     },
     {
         "name": "Royal Chef",
-        "iconUrls": 
+        "iconUrls": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/RoyalChefCard.png/revision/latest/top-crop/width/200/height/150?cb=20250909055422"
     }
 ]

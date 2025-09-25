@@ -28,3 +28,5 @@ router.get('/', (req, res) => {
 });
 
 module.exports = router;
+//test browser
+//http://localhost:5000/top-players/season-top
