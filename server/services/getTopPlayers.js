@@ -11,3 +11,4 @@ const getTopPlayers = async () => {
 };
 
 module.exports = getTopPlayers;
+

@@ -1,12 +1,65 @@
-<!-- client/public/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Clash Royale Deck Predictor</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CR Deck Predictor</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Welcome to Deck Predictor</h1>
-  <p>Live preview is working!</p>
-</body>
+  <header>
+    <div class="container topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">👑</div>
+        <div>CR Deck Predictor</div>
+      </div>
+      <nav aria-label="primary" class="nav">
+        <a href="#decks">Decks</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>  
+  </header>
+
+
+  <main>
+    <section class="hero container">
+      <h1 class="title">Welcome to <span class="grad">CR Deck Predictor</span></h1>
+      <p class="subtitle">Search a card and click <strong>Add</strong> to drop it into the next empty slot. (Pure front‑end demo; wire to your backend later.)</p>
+      <div class="divider"></div>
+      <div class="search-bar center">
+        <div class="input-group">
+          <input id="cardSearch" type="text" placeholder="Search cards..." />
+          <button id="addBtn" type="button">Add</button>
+        </div>
+      </div>
+
+
+      <div class="filters" aria-hidden="true">
+        <span class="chip">All</span>
+        <span class="chip">Beatdown</span>
+        <span class="chip">Control</span>
+        <span class="chip">Cycle</span>
+        <span class="chip">Miner</span>
+        <span class="chip">Hog</span>
+        <span class="chip">Log Bait</span>
+      </div>
+    </section>
+
+    <section id="decks" class="container">
+      <div class="grid">
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 1</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 2</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 3</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 4</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 5</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 6</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 7</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+        <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 8</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="about" class="container">
+    Built with plain <strong>HTML</strong> + <strong>CSS</strong> + a tiny bit of <strong>JS</strong> for the Add button.
+  </footer>
 </html>
