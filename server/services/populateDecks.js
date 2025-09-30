@@ -14,11 +14,24 @@ const populateDecks = async () => {
 
     const exists = await Deck.exists({ cards: { $all: cards, $size: 8 } });//Checks if a deck with the exact same 8 cards already exists in MongoDB.
     if (!exists) {
+      const cardDocs = await Card.find({ name: { $in: cards } });
+
+      const winConditions = cardDocs
+        .filter(card => card.wincon)
+        .map(card => card.name);
+
+      const totalElixir = cardDocs.reduce((sum, card) => sum + card.elixirCost, 0);
+      const avgElixir = (totalElixir / cardDocs.length).toFixed(1);
+      
+      const deckName = winConditions.length
+      ? `${winConditions.join(', ')} — ${avgElixir}`
+      : `No Win Condition — ${avgElixir}`;
+      
       deckBatch.push({
         cards,
         sourcePlayer: player.name,
         towerTroops: 'default',
-        name: `${player.name}'s Deck`
+        name: deckName
       });
     }
   }

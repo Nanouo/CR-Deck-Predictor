@@ -16,6 +16,8 @@ app.use('/api', cardRoutes);
 /*const playerRoutes = require('./routes/playerRoutes');
 app.use('/api/player', playerRoutes);*/
 
+app.use('/api/decks', require('./routes/deckRoutes'));
+
 const topPlayersRoutes = require('./routes/topPlayersRoutes');
 app.use('/api/top-players', topPlayersRoutes);
 
