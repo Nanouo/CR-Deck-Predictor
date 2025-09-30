@@ -3,7 +3,7 @@ const axios = require('axios');
 const router = express.Router();
 
 const token = process.env.CR_API_TOKEN;;
-
+console.log('Using token:', process.env.CR_API_TOKEN);
 router.get('/season-top', async (req, res) => {
   try {
     // Step 1: Get current season
