@@ -5,40 +5,48 @@ console.log('Using token:', process.env.CR_API_TOKEN);
 const BASE_URL = 'https://api.clashroyale.com/v1';
 const headers = { Authorization: `Bearer ${process.env.CR_API_TOKEN}` };
 
-const getTopPlayers = async () => {
+const getTopPlayers = async (locationId = 'global') => {
   try {
-    const seasonRes = await axios.get(`${BASE_URL}/locations/global/seasons`, { headers });
-    const currentSeasonId = seasonRes.data.items[0].id;
+    if (locationId === 'global') {
+      // Global uses seasonal rankings
+      console.log(`Fetching current season for location: ${locationId}...`);
+      const seasonRes = await axios.get(`${BASE_URL}/locations/${locationId}/seasons`, { headers });
+      console.log('Season response:', JSON.stringify(seasonRes.data, null, 2));
 
-    const playerRes = await axios.get(`${BASE_URL}/locations/global/seasons/${currentSeasonId}/rankings/players?limit=50`, { headers });
-    const topPlayers = playerRes.data.items;
+      const currentSeasonId = seasonRes.data.items[0]?.id;
+      if (!currentSeasonId) {
+        throw new Error('No current season ID found in API response');
+      }
+      console.log(`Current season ID: ${currentSeasonId}`);
 
-    const enrichedPlayers = [];
+      console.log(`Fetching top players from ${locationId}...`);
+      const playerRes = await axios.get(`${BASE_URL}/locations/${locationId}/seasons/${currentSeasonId}/rankings/players?limit=50`, { headers });
+      console.log('Top players response:', JSON.stringify(playerRes.data, null, 2));
 
-    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-    
-    for (const player of topPlayers) {
-    const tag = encodeURIComponent(player.tag);
+      const topPlayers = playerRes.data.items;
+      if (!topPlayers || topPlayers.length === 0) {
+        throw new Error('No top players found in API response');
+      }
+      console.log(`Fetched ${topPlayers.length} top players from ${locationId}.`);
 
-    try {
-      const profileRes = await axios.get(`${BASE_URL}/players/${tag}`, { headers });
+      return topPlayers.map(player => player.tag);
+    } else {
+      // Regional locations use current rankings
+      console.log(`Fetching current rankings for location: ${locationId}...`);
+      const playerRes = await axios.get(`${BASE_URL}/locations/${locationId}/rankings/players?limit=50`, { headers });
+      console.log('Top players response:', JSON.stringify(playerRes.data, null, 2));
 
-      enrichedPlayers.push({
-        name: player.name,
-        currentDeck: profileRes.data.currentDeck
-      });
-    } 
-    catch (err) {
-      console.warn(`⚠️ Skipping ${player.name} (${player.tag}) — ${err.response?.data?.reason || err.message}`);
-      continue;
+      const topPlayers = playerRes.data.items;
+      if (!topPlayers || topPlayers.length === 0) {
+        throw new Error('No top players found in API response');
+      }
+      console.log(`Fetched ${topPlayers.length} top players from location ${locationId}.`);
+
+      return topPlayers.map(player => player.tag);
     }
-
-    await sleep(100); // optional: avoid rate limits
-  }
-
-    return enrichedPlayers;
-  } catch (err) {
-    console.error('Error fetching enriched player data:', err.response?.data || err.message);
+  } 
+  catch (err) {
+    console.error('Error fetching top players:', err.response?.data || err.message);
     throw new Error('Failed to fetch top player decks');
   }
 };

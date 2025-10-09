@@ -47,6 +47,7 @@
   {
     "name": "P.E.K.K.A",
     "id": 26000004,
+    "wincon": true,
     "maxLevel": 9,
     "maxEvolutionLevel": 1,
     "elixirCost": 7,
@@ -366,6 +367,7 @@
   {
     "name": "Sparky",
     "id": 26000033,
+    "wincon": true,
     "maxLevel": 6,
     "elixirCost": 6,
     "iconUrls": {
@@ -475,6 +477,7 @@
   {
     "name": "Elite Barbarians",
     "id": 26000043,
+    "wincon": true,
     "maxLevel": 14,
     "elixirCost": 6,
     "iconUrls": {
@@ -1002,6 +1005,7 @@
   {
     "name": "Elixir Collector",
     "id": 27000007,
+    "wincon": true,
     "maxLevel": 12,
     "elixirCost": 6,
     "iconUrls": {
