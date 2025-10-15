@@ -302,6 +302,10 @@ header {
     border:1px solid #243049; 
 }
 
+/* Put this in your stylesheet */
+#cardDropdown mark { background: transparent; color: #67e8f9; font-weight: 600; }
+#cardDropdown .dd-item:hover { background: rgba(148,163,184,.12); }
+
 footer { 
     color:#7a8292; 
     font-size:12px; 
