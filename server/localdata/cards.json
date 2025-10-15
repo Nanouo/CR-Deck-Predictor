@@ -610,7 +610,6 @@
   {
     "name": "Mega Knight",
     "id": 26000055,
-    "wincon": true,
     "maxLevel": 6,
     "maxEvolutionLevel": 1,
     "elixirCost": 7,

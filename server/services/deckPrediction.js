@@ -268,13 +268,11 @@ async function predictNextCards(selectedCards, limit = 5) {
     // Get cards from this deck that user doesn't have
     const missingCards = deck.cards.filter(card => !selectedCards.includes(card));
     
-    // CRITICAL: Only count cards if this deck needs exactly the right number
-    // This ensures we only suggest cards that actually complete viable decks
-    if (missingCards.length === numCardsNeeded) {
-      missingCards.forEach(card => {
-        cardFrequency[card] = (cardFrequency[card] || 0) + 1;
-      });
-    }
+    // Count ALL missing cards, not just exact matches
+    // This allows the system to suggest cards even when there's no perfect match
+    missingCards.forEach(card => {
+      cardFrequency[card] = (cardFrequency[card] || 0) + 1;
+    });
   });
   
   // Convert to array and calculate percentages
