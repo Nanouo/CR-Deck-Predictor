@@ -357,7 +357,6 @@ slots.forEach(slot => {
   });
 });
 
-<<<<<<< HEAD
 // click suggestion → add to next empty slot
 suggestionSlots.forEach(sugg => {
   sugg.addEventListener('click', () => {
@@ -377,5 +376,3 @@ suggestionSlots.forEach(sugg => {
     fetchPredictions();
   });
 });
-=======
->>>>>>> evan-ui-header
