@@ -8,7 +8,7 @@ const cardData = JSON.parse(fs.readFileSync(cardsPath));
 
 /**
  * Creates a map of card substitutions for quick lookup
- * Returns: { "Arrows": ["Arrows", "Giant Vines", "The Log", "Giant Snowball"], ... }
+ * Returns: { "Arrows": ["Arrows", "Vines", "The Log", "Giant Snowball"], ... }
  */
 function buildSubstitutionMap() {
   const substitutionMap = {};

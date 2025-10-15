@@ -38,79 +38,69 @@ const validateDeck = (cards) => {
 // Just modify this array with your own deck combinations
 const customDecks = [
   {
-    name: "Evo Witch Goblin Hut Vines Graveyard Poison",
-    cards: ["Knight", "Witch", "Graveyard", "Ice Wizard", "Goblin Hut", "Vines", "Poison", "Barbarian Barrel"],
-    description: "Graveyard control with Evo Witch"
+    name: "PEKKA Zap bridge spam",
+    cards: ["Battle Ram", "P.E.K.K.A", "Royal Ghost", "Bandit", "Electro Wizard", "Magic Archer", "Fireball", "Zap"],
+    description: "P.E.K.K.A bridge spam"
   },
   {
-    name: "Vines Evo Baby Dragon Graveyard Poison",
-    cards: ["Knight", "Baby Dragon", "Graveyard", "Ice Wizard", "Goblin Hut", "Vines", "Poison", "Barbarian Barrel"],
-    description: "Graveyard control with Evo Baby Dragon"
+    name: "Double Elixir Loon Freeze",
+    cards: ["Balloon", "Lumberjack", "Bowler", "Inferno Dragon", "Electro Dragon", "Freeze", "Tornado", "Barbarian Barrel"],
+    description: "Lumberloon Freeze beatdown"
   },
   {
-    name: "Evo Furnace Berserker Graveyard Poison",
-    cards: ["Knight", "Furnace", "Graveyard", "Berserker", "Ice Spirit", "Goblin Hut", "Poison", "Barbarian Barrel"],
-    description: "Graveyard control with Evo Furnace"
+    name: "Mighty Miner Firecracker Hog",
+    cards: ["Hog Rider", "Mighty Miner", "Firecracker", "Goblins", "Ice Spirit", "Bomb Tower", "Earthquake", "The Log"],
+    description: "Hog cycle with Mighty Miner"
   },
   {
-    name: "Spirit Empress Evo Witch Gob Hut Graveyard",
-    cards: ["Knight", "Witch", "Graveyard", "Spirit Empress", "Skeletons", "Goblin Hut", "Poison", "Barbarian Barrel"],
-    description: "Graveyard with Spirit Empress"
+    name: "Splashyard with Barb barrel",
+    cards: ["Graveyard", "Knight", "Ice Wizard", "Baby Dragon", "Tombstone", "Poison", "Tornado", "Barbarian Barrel"],
+    description: "Classic Splashyard"
   },
   {
-    name: "Evo Witch Gob Hut Graveyard Poison",
-    cards: ["Knight", "Witch", "Graveyard", "Ice Wizard", "Skeletons", "Goblin Hut", "Poison", "Barbarian Barrel"],
-    description: "Graveyard control with Evo Witch"
+    name: "Skeleton King Mortar Bait",
+    cards: ["Mortar", "Skeleton Barrel", "Skeleton King", "Cannon Cart", "Dart Goblin", "Skeleton Army", "Goblin Gang", "Fireball"],
+    description: "Mortar bait with Skeleton King"
   },
   {
-    name: "Evo Exe Splashyard Freeze",
-    cards: ["Executioner", "Skeletons", "Graveyard", "Skeleton King", "Bowler", "Inferno Dragon", "Freeze", "Tornado"],
-    description: "Splashyard with Evo Executioner and Freeze"
+    name: "Golden Knight 3M eBarbs Pump",
+    cards: ["Three Musketeers", "Golden Knight", "Elite Barbarians", "Royal Ghost", "Bandit", "Heal Spirit", "Elixir Collector", "Barbarian Barrel"],
+    description: "3M spam with Golden Knight"
   },
   {
-    name: "Evo Witch Giant Graveyard Snowball",
-    cards: ["Witch", "Giant Snowball", "Giant", "Graveyard", "Bowler", "Minions", "Guards", "Arrows"],
-    description: "Giant Graveyard with Evo Witch"
+    name: "Phoenix Goblin Hut Rascals Graveyard",
+    cards: ["Graveyard", "Skeleton King", "Rascals", "Phoenix", "Goblins", "Goblin Hut", "Poison", "Barbarian Barrel"],
+    description: "Graveyard with Phoenix and spawners"
   },
   {
-    name: "Evo Cannon Goblinstein splashyard",
-    cards: ["Knight", "Cannon", "Graveyard", "Goblinstein", "Ice Wizard", "Poison", "Tornado", "Barbarian Barrel"],
-    description: "Splashyard with Evo Cannon and Goblinstein"
+    name: "Skeleton King Giant Sparky Barbarians",
+    cards: ["Giant", "Graveyard", "Skeleton King", "Sparky", "Hunter", "Zappies", "Barbarians", "Arrows"],
+    description: "Giant Graveyard Sparky"
   },
   {
-    name: "Evo Cage Goblinstein Splashyard",
-    cards: ["Skeletons", "Goblin Cage", "Graveyard", "Goblinstein", "Ice Wizard", "Poison", "Tornado", "Barbarian Barrel"],
-    description: "Splashyard with Evo Cage and Goblinstein"
+    name: "GobHut Witch Heist spam",
+    cards: ["Valkyrie", "Witch", "Inferno Dragon", "Electro Dragon", "Flying Machine", "Goblin Hut", "Poison", "Royal Delivery"],
+    description: "Spawner spam with Witch"
   },
   {
-    name: "Goblinstein Evo Cage Graveyard Freeze",
-    cards: ["Bomber", "Goblin Cage", "Graveyard", "Goblinstein", "Ice Wizard", "Freeze", "Tornado", "Barbarian Barrel"],
-    description: "Graveyard Freeze with Goblinstein"
+    name: "Mega Monk Prince Phoenix Rage",
+    cards: ["Prince", "Phoenix", "Zappies", "Electro Dragon", "Skeleton Army", "Tombstone", "Rage", "Poison"],
+    description: "Prince Phoenix Rage beatdown"
   },
   {
-    name: "Goblinstein Evo Cage Graveyard Poison",
-    cards: ["Knight", "Goblin Cage", "Graveyard", "Goblinstein", "Baby Dragon", "Skeletons", "Poison", "Barbarian Barrel"],
-    description: "Graveyard control with Goblinstein"
+    name: "Golem NW Lumberjack",
+    cards: ["Golem", "Elite Barbarians", "Lumberjack", "Night Witch", "Mega Minion", "Bomber", "Arrows", "Zap"],
+    description: "Golem beatdown with Lumberjack"
   },
   {
-    name: "Sudden death Evo Wizard Splashyard",
-    cards: ["Knight", "Wizard", "Graveyard", "Bowler", "Mother Witch", "Inferno Dragon", "Freeze", "Tornado"],
-    description: "Splashyard with Evo Wizard"
+    name: "Lumberloon Bait Cycle",
+    cards: ["Balloon", "Lumberjack", "Bats", "Princess", "Goblins", "Ice Spirit", "Barbarian Barrel", "Giant Snowball"],
+    description: "Fast Lumberloon cycle"
   },
   {
-    name: "Evo Goblin Cage Splash Yard",
-    cards: ["Knight", "Goblin Cage", "Graveyard", "Ice Wizard", "Baby Dragon", "Poison", "Tornado", "Barbarian Barrel"],
-    description: "Splashyard with Evo Goblin Cage"
-  },
-  {
-    name: "Triple Elixir Graveyard Splash Tesla",
-    cards: ["Valkyrie", "Tesla", "Graveyard", "Bowler", "Executioner", "Phoenix", "Poison", "Tornado"],
-    description: "Triple splash Graveyard with Tesla"
-  },
-  {
-    name: "Splashyard with Void",
-    cards: ["Graveyard", "Knight", "Ice Wizard", "Baby Dragon", "Tombstone", "Void", "Tornado", "Barbarian Barrel"],
-    description: "Classic Splashyard with Void"
+    name: "Magic Archer Princess Bridge spam",
+    cards: ["Goblin Drill", "Wall Breakers", "Royal Recruits", "Elite Barbarians", "Royal Ghost", "Bandit", "Magic Archer", "Princess"],
+    description: "Bridge spam with Magic Archer"
   }
 ];
 
