@@ -1,0 +1,2953 @@
+[
+  {
+    "name": "Giant, Mega Knight — 4.3",
+    "cards": [
+      "Giant",
+      "Bats",
+      "Mega Knight",
+      "Inferno Dragon",
+      "Rage",
+      "Wizard",
+      "Fireball",
+      "Minion Horde"
+    ]
+  },
+  {
+    "name": "Balloon, Hog Rider — 3.8",
+    "cards": [
+      "Mini P.E.K.K.A",
+      "Archer Queen",
+      "Hog Rider",
+      "Rage",
+      "Tombstone",
+      "Arrows",
+      "Phoenix",
+      "Balloon"
+    ]
+  },
+  {
+    "name": "Royal Giant — 3.6",
+    "cards": [
+      "Baby Dragon",
+      "Fisherman",
+      "Furnace",
+      "Lightning",
+      "Mega Minion",
+      "Royal Giant",
+      "Skeletons",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Golem, Elite Barbarians — 4.8",
+    "cards": [
+      "Witch",
+      "Goblin Hut",
+      "Fireball",
+      "Electro Dragon",
+      "Golem",
+      "Phoenix",
+      "Elite Barbarians",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "X-Bow — 3.0",
+    "cards": [
+      "Archers",
+      "Tesla",
+      "Ice Spirit",
+      "The Log",
+      "Skeletons",
+      "X-Bow",
+      "Knight",
+      "Poison"
+    ]
+  },
+  {
+    "name": "Mega Knight, Goblin Barrel — 3.3",
+    "cards": [
+      "Mega Knight",
+      "Firecracker",
+      "Skeletons",
+      "The Log",
+      "Arrows",
+      "Goblin Barrel",
+      "Fireball",
+      "Princess"
+    ]
+  },
+  {
+    "name": "P.E.K.K.A, Elixir Golem — NaN",
+    "cards": [
+      "P.E.K.K.A",
+      "Witch",
+      "Goblin Machine",
+      "Battle Healer",
+      "Mother Witch",
+      "Elixir Golem",
+      "Vines",
+      "Mirror"
+    ]
+  },
+  {
+    "name": "Balloon, Golem — 4.5",
+    "cards": [
+      "Valkyrie",
+      "Balloon",
+      "Mini P.E.K.K.A",
+      "Fireball",
+      "Inferno Dragon",
+      "Baby Dragon",
+      "Archers",
+      "Golem"
+    ]
+  },
+  {
+    "name": "Hog Rider — 2.6",
+    "cards": [
+      "Skeleton Army",
+      "Firecracker",
+      "Berserker",
+      "Hog Rider",
+      "Cannon",
+      "Vines",
+      "Barbarian Barrel",
+      "Ice Spirit"
+    ]
+  },
+  {
+    "name": "Golem — 4.3",
+    "cards": [
+      "Golem",
+      "Night Witch",
+      "Lumberjack",
+      "Mega Minion",
+      "Baby Dragon",
+      "Lightning",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem, Elixir Collector — 4.4",
+    "cards": [
+      "Skeletons",
+      "Baby Dragon",
+      "Golem",
+      "Night Witch",
+      "Mega Minion",
+      "Lightning",
+      "Tornado",
+      "Elixir Collector"
+    ]
+  },
+  {
+    "name": "Graveyard — 4.0",
+    "cards": [
+      "Executioner",
+      "Knight",
+      "Graveyard",
+      "Inferno Dragon",
+      "Bowler",
+      "Guards",
+      "Tornado",
+      "Freeze"
+    ]
+  },
+  {
+    "name": "P.E.K.K.A, Ram Rider — NaN",
+    "cards": [
+      "P.E.K.K.A",
+      "Witch",
+      "Arrows",
+      "Electro Wizard",
+      "Bandit",
+      "Ram Rider",
+      "Mirror",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Royal Hogs, Boss Bandit — 3.9",
+    "cards": [
+      "Royal Recruits",
+      "Firecracker",
+      "Valkyrie",
+      "Ice Spirit",
+      "Royal Hogs",
+      "Boss Bandit",
+      "Zap",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Skeleton Barrel, Royal Hogs — 3.9",
+    "cards": [
+      "Royal Recruits",
+      "Inferno Dragon",
+      "Goblins",
+      "Skeleton Barrel",
+      "Royal Hogs",
+      "Flying Machine",
+      "Arrows",
+      "Goblin Gang"
+    ]
+  },
+  {
+    "name": "Mega Knight, Goblin Barrel — NaN",
+    "cards": [
+      "Mega Knight",
+      "Goblin Barrel",
+      "Mini P.E.K.K.A",
+      "Zap",
+      "Arrows",
+      "Bats",
+      "Mirror",
+      "Skeleton Army"
+    ]
+  },
+  {
+    "name": "Goblin Barrel — 3.3",
+    "cards": [
+      "Knight",
+      "Skeletons",
+      "Goblin Barrel",
+      "The Log",
+      "Princess",
+      "Inferno Tower",
+      "Rocket",
+      "Goblin Gang"
+    ]
+  },
+  {
+    "name": "Royal Hogs — 2.9",
+    "cards": [
+      "Ice Spirit",
+      "Skeletons",
+      "Royal Hogs",
+      "Archer Queen",
+      "Cannon",
+      "The Log",
+      "Earthquake",
+      "Royal Delivery"
+    ]
+  },
+  {
+    "name": "No Win Condition — 3.8",
+    "cards": [
+      "Night Witch",
+      "Freeze",
+      "Prince",
+      "Dark Prince",
+      "Arrows",
+      "Zap",
+      "Musketeer",
+      "Baby Dragon"
+    ]
+  },
+  {
+    "name": "Golem — 4.5",
+    "cards": [
+      "Baby Dragon",
+      "Wizard",
+      "Prince",
+      "Minions",
+      "Arrows",
+      "Vines",
+      "Golem",
+      "Goblin Machine"
+    ]
+  },
+  {
+    "name": "P.E.K.K.A — 4.1",
+    "cards": [
+      "P.E.K.K.A",
+      "Witch",
+      "Bandit",
+      "Firecracker",
+      "Royal Ghost",
+      "Dark Prince",
+      "Poison",
+      "Magic Archer"
+    ]
+  },
+  {
+    "name": "Golem, Elixir Collector — 4.5",
+    "cards": [
+      "Lumberjack",
+      "Electro Dragon",
+      "Golem",
+      "Battle Healer",
+      "Furnace",
+      "Tornado",
+      "Barbarian Barrel",
+      "Elixir Collector"
+    ]
+  },
+  {
+    "name": "Hog Rider, Miner — 3.6",
+    "cards": [
+      "Valkyrie",
+      "Miner",
+      "Baby Dragon",
+      "Witch",
+      "Hog Rider",
+      "Zap",
+      "Skeleton Army",
+      "Hunter"
+    ]
+  },
+  {
+    "name": "Royal Hogs — 3.3",
+    "cards": [
+      "Skeletons",
+      "Fire Spirit",
+      "Prince",
+      "Dart Goblin",
+      "Royal Hogs",
+      "Dark Prince",
+      "Witch",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Log Bait Classic",
+    "cards": [
+      "Goblin Barrel",
+      "Princess",
+      "The Log",
+      "Rocket",
+      "Goblin Gang",
+      "Ice Spirit",
+      "Inferno Tower",
+      "Knight"
+    ]
+  },
+  {
+    "name": "Hog 2.6 Cycle",
+    "cards": [
+      "Hog Rider",
+      "Ice Golem",
+      "Ice Spirit",
+      "Skeletons",
+      "Musketeer",
+      "Fireball",
+      "The Log",
+      "Cannon"
+    ]
+  },
+  {
+    "name": "Giant Double Prince",
+    "cards": [
+      "Giant",
+      "Prince",
+      "Dark Prince",
+      "Mega Minion",
+      "Elixir Collector",
+      "Poison",
+      "Zap",
+      "Electro Wizard"
+    ]
+  },
+  {
+    "name": "X-Bow 2.9",
+    "cards": [
+      "X-Bow",
+      "Tesla",
+      "Ice Golem",
+      "Ice Spirit",
+      "Skeletons",
+      "Archers",
+      "The Log",
+      "Fireball"
+    ]
+  },
+  {
+    "name": "Golem Night Witch",
+    "cards": [
+      "Golem",
+      "Night Witch",
+      "Baby Dragon",
+      "Mega Minion",
+      "Lightning",
+      "Tornado",
+      "Lumberjack",
+      "Elixir Collector"
+    ]
+  },
+  {
+    "name": "Evo Witch Graveyard Control",
+    "cards": [
+      "Graveyard",
+      "Knight",
+      "Ice Wizard",
+      "Witch",
+      "Goblin Hut",
+      "Vines",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Goblin Giant Rage",
+    "cards": [
+      "Goblin Giant",
+      "Goblin Machine",
+      "Mini P.E.K.K.A",
+      "Witch",
+      "Minions",
+      "Rage",
+      "Vines",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Baby Dragon Graveyard",
+    "cards": [
+      "Graveyard",
+      "Knight",
+      "Ice Wizard",
+      "Baby Dragon",
+      "Goblin Hut",
+      "Vines",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Goblin Giant Prince Curse",
+    "cards": [
+      "Goblin Giant",
+      "Goblin Machine",
+      "Prince",
+      "Furnace",
+      "Minions",
+      "Rage",
+      "Goblin Curse",
+      "Vines"
+    ]
+  },
+  {
+    "name": "Evo Royal Giant Wizard Monk",
+    "cards": [
+      "Royal Giant",
+      "Monk",
+      "Fisherman",
+      "Wizard",
+      "Skeletons",
+      "Electro Spirit",
+      "Vines",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Goblin Cage Recruits Royal Hogs",
+    "cards": [
+      "Royal Recruits",
+      "Goblin Cage",
+      "Royal Hogs",
+      "Zappies",
+      "Flying Machine",
+      "Electro Spirit",
+      "Arrows",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "X-Bow Electro Spirit Cycle",
+    "cards": [
+      "Archers",
+      "Tesla",
+      "X-Bow",
+      "Knight",
+      "Skeletons",
+      "Electro Spirit",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Evo Goblin Cage Splash Yard",
+    "cards": [
+      "Knight",
+      "Goblin Cage",
+      "Graveyard",
+      "Ice Wizard",
+      "Baby Dragon",
+      "Poison",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Royal Hogs Recruits Fireball Cage",
+    "cards": [
+      "Royal Recruits",
+      "Royal Hogs",
+      "Zappies",
+      "Flying Machine",
+      "Goblin Cage",
+      "Fireball",
+      "Arrows",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Valkyrie Wall Breakers Log Bait",
+    "cards": [
+      "Goblin Barrel",
+      "Valkyrie",
+      "Wall Breakers",
+      "Princess",
+      "Dart Goblin",
+      "Goblin Gang",
+      "Ice Spirit",
+      "Cannon"
+    ]
+  },
+  {
+    "name": "Miner Balloon Musketeer Cycle",
+    "cards": [
+      "Musketeer",
+      "Skeletons",
+      "Balloon",
+      "Miner",
+      "Ice Golem",
+      "Bomb Tower",
+      "Barbarian Barrel",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Goblin Giant Sparky Elite Barbarians",
+    "cards": [
+      "Goblin Giant",
+      "Zap",
+      "Elite Barbarians",
+      "Sparky",
+      "Dark Prince",
+      "Electro Wizard",
+      "Heal Spirit",
+      "Rage"
+    ]
+  },
+  {
+    "name": "Evo Furnace Berserker Graveyard",
+    "cards": [
+      "Knight",
+      "Furnace",
+      "Graveyard",
+      "Berserker",
+      "Ice Spirit",
+      "Goblin Hut",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Dart Goblin 2.6 Bait Cycle",
+    "cards": [
+      "Goblin Barrel",
+      "Dart Goblin",
+      "Knight",
+      "Princess",
+      "Goblin Gang",
+      "Ice Spirit",
+      "Cannon",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Evo MK Evo Hunter Hog Freeze",
+    "cards": [
+      "Hog Rider",
+      "Mega Knight",
+      "Prince",
+      "Hunter",
+      "Inferno Dragon",
+      "Bomber",
+      "Freeze",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Spooky Chess Mega Knight Curse",
+    "cards": [
+      "Goblinstein",
+      "Mega Knight",
+      "Phoenix",
+      "Firecracker",
+      "Rage",
+      "Goblin Curse",
+      "Tornado",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Evo Firecracker 2.6 Hog Cycle",
+    "cards": [
+      "Knight",
+      "Firecracker",
+      "Hog Rider",
+      "Skeletons",
+      "Ice Spirit",
+      "Tesla",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Bait with Tesla",
+    "cards": [
+      "Knight",
+      "Goblin Barrel",
+      "Princess",
+      "Goblin Gang",
+      "Ice Spirit",
+      "Tesla",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Little Prince Evo Knight Splashyard",
+    "cards": [
+      "Knight",
+      "Graveyard",
+      "Little Prince",
+      "Baby Dragon",
+      "Tombstone",
+      "Poison",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "NA Giant Graveyard Control",
+    "cards": [
+      "Giant",
+      "Graveyard",
+      "Barbarians",
+      "Archers",
+      "Arrows",
+      "Tombstone",
+      "Poison",
+      "Freeze"
+    ]
+  },
+  {
+    "name": "NA LavaLoon Beatdown",
+    "cards": [
+      "Lava Hound",
+      "Balloon",
+      "Skeleton Dragons",
+      "Tombstone",
+      "Fireball",
+      "Zap",
+      "Guards",
+      "Barbarians"
+    ]
+  },
+  {
+    "name": "NA Miner Poison Control",
+    "cards": [
+      "Miner",
+      "Poison",
+      "Valkyrie",
+      "Bats",
+      "Spear Goblins",
+      "Inferno Tower",
+      "The Log",
+      "Skeletons"
+    ]
+  },
+  {
+    "name": "NA Royal Giant Cycle",
+    "cards": [
+      "Royal Giant",
+      "Fisherman",
+      "Hunter",
+      "Mother Witch",
+      "Earthquake",
+      "Lightning",
+      "Heal Spirit",
+      "The Log"
+    ]
+  },
+  {
+    "name": "NA X-Bow 3.0",
+    "cards": [
+      "X-Bow",
+      "Tesla",
+      "Archers",
+      "Ice Golem",
+      "Skeletons",
+      "The Log",
+      "Fireball",
+      "Knight"
+    ]
+  },
+  {
+    "name": "NA Golem Night Witch",
+    "cards": [
+      "Golem",
+      "Night Witch",
+      "Baby Dragon",
+      "Tornado",
+      "Lightning",
+      "Lumberjack",
+      "Barbarian Barrel",
+      "Cannon Cart"
+    ]
+  },
+  {
+    "name": "NA Mortar Miner Bait",
+    "cards": [
+      "Mortar",
+      "Miner",
+      "Valkyrie",
+      "Spear Goblins",
+      "Skeletons",
+      "The Log",
+      "Arrows",
+      "Knight"
+    ]
+  },
+  {
+    "name": "NA Sparky Goblin Giant",
+    "cards": [
+      "Sparky",
+      "Goblin Giant",
+      "Hunter",
+      "Zap",
+      "Giant Snowball",
+      "Mega Minion",
+      "Dark Prince",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "NA Hog 2.6 Variant",
+    "cards": [
+      "Hog Rider",
+      "Mini P.E.K.K.A",
+      "Musketeer",
+      "Ice Golem",
+      "Cannon",
+      "Fireball",
+      "The Log",
+      "Ice Spirit"
+    ]
+  },
+  {
+    "name": "NA Elixir Golem Rush",
+    "cards": [
+      "Elixir Golem",
+      "Battle Healer",
+      "Electro Dragon",
+      "Dark Prince",
+      "Barbarian Barrel",
+      "Tornado",
+      "Mini P.E.K.K.A",
+      "Skeletons"
+    ]
+  },
+  {
+    "name": "NA Three Musketeers Spam",
+    "cards": [
+      "Three Musketeers",
+      "Battle Ram",
+      "Elixir Collector",
+      "Ice Golem",
+      "Zap",
+      "Minion Horde",
+      "Goblin Gang",
+      "Heal Spirit"
+    ]
+  },
+  {
+    "name": "NA P.E.K.K.A Ram Rider",
+    "cards": [
+      "P.E.K.K.A",
+      "Ram Rider",
+      "Magic Archer",
+      "Electro Wizard",
+      "Poison",
+      "Zap",
+      "Dark Prince",
+      "Fireball"
+    ]
+  },
+  {
+    "name": "NA LumberLoon Freeze",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Freeze",
+      "Ice Golem",
+      "Bats",
+      "Musketeer",
+      "Barbarian Barrel",
+      "Snowball"
+    ]
+  },
+  {
+    "name": "NA Wall Breakers Miner",
+    "cards": [
+      "Wall Breakers",
+      "Miner",
+      "Royal Delivery",
+      "Valkyrie",
+      "Firecracker",
+      "Bats",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "NA Ice Bow Rocket",
+    "cards": [
+      "Ice Bow",
+      "Rocket",
+      "Tornado",
+      "Skeletons",
+      "Ice Spirit",
+      "The Log",
+      "Tesla",
+      "Knight"
+    ]
+  },
+  {
+    "name": "NA Royal Hogs Cycle",
+    "cards": [
+      "Royal Hogs",
+      "Earthquake",
+      "Royal Delivery",
+      "Fisherman",
+      "Barbarian Barrel",
+      "Mother Witch",
+      "Skeletons",
+      "Firecracker"
+    ]
+  },
+  {
+    "name": "NA Goblin Drill Bait",
+    "cards": [
+      "Goblin Drill",
+      "Valkyrie",
+      "Guards",
+      "Fireball",
+      "The Log",
+      "Skeleton Army",
+      "Goblin Gang",
+      "Princess"
+    ]
+  },
+  {
+    "name": "NA RG Golden Knight",
+    "cards": [
+      "Royal Giant",
+      "Mother Witch",
+      "Golden Knight",
+      "Cannon",
+      "Earthquake",
+      "The Log",
+      "Ice Spirit",
+      "Skeletons"
+    ]
+  },
+  {
+    "name": "NA Giant Skeleton Clone",
+    "cards": [
+      "Giant Skeleton",
+      "Graveyard",
+      "Tornado",
+      "Arrows",
+      "Electro Wizard",
+      "Barbarians",
+      "Clone",
+      "Freeze"
+    ]
+  },
+  {
+    "name": "NA Skeleton King GY",
+    "cards": [
+      "Skeleton King",
+      "Graveyard",
+      "Tornado",
+      "Bowler",
+      "Baby Dragon",
+      "Barbarian Barrel",
+      "Freeze",
+      "Poison"
+    ]
+  },
+  {
+    "name": "NA Classic Log Bait",
+    "cards": [
+      "Log Bait",
+      "Princess",
+      "Goblin Barrel",
+      "Rocket",
+      "Knight",
+      "Ice Spirit",
+      "Inferno Tower",
+      "The Log"
+    ]
+  },
+  {
+    "name": "NA Hog Earthquake",
+    "cards": [
+      "Hog Rider",
+      "Earthquake",
+      "Valkyrie",
+      "Musketeer",
+      "Cannon",
+      "Skeletons",
+      "Ice Spirit",
+      "The Log"
+    ]
+  },
+  {
+    "name": "NA Goblin Giant Double Spawner",
+    "cards": [
+      "Goblin Giant",
+      "Sparky",
+      "Dark Prince",
+      "Mini P.E.K.K.A",
+      "Zap",
+      "Arrows",
+      "Mega Minion",
+      "Goblin Gang"
+    ]
+  },
+  {
+    "name": "NA Archer Queen Hog",
+    "cards": [
+      "Archer Queen",
+      "Hog Rider",
+      "Mighty Miner",
+      "Skeletons",
+      "The Log",
+      "Fireball",
+      "Cannon",
+      "Musketeer"
+    ]
+  },
+  {
+    "name": "Evo PEKKA Loon Freeze",
+    "cards": [
+      "P.E.K.K.A",
+      "Electro Dragon",
+      "Balloon",
+      "Lumberjack",
+      "Ice Wizard",
+      "Freeze",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Double Elixir Loon Freeze",
+    "cards": [
+      "P.E.K.K.A",
+      "Zap",
+      "Balloon",
+      "Lumberjack",
+      "Ice Wizard",
+      "Baby Dragon",
+      "Freeze",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Sudden Death Snowball Loon",
+    "cards": [
+      "Inferno Dragon",
+      "Electro Dragon",
+      "Balloon",
+      "Lumberjack",
+      "Bowler",
+      "Freeze",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Loon Freeze Control",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Mega Minion",
+      "Archers",
+      "Guards",
+      "Freeze",
+      "Barbarian Barrel",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Sudden Death Loon Freeze Valk",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Bowler",
+      "Inferno Dragon",
+      "Baby Dragon",
+      "Freeze",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Sudden Death Loon Freeze",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Valkyrie",
+      "Ice Wizard",
+      "Mega Minion",
+      "Freeze",
+      "Tornado",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Sudden Death Colton's Loon Freeze",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Ice Wizard",
+      "Bats",
+      "Freeze",
+      "Clone",
+      "Tornado",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Sudden Death Clone Loon",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Ice Golem",
+      "Mega Minion",
+      "Ice Spirit",
+      "Freeze",
+      "Clone",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Boss Bandit Giant Rage Goblin Curse",
+    "cards": [
+      "Inferno Dragon",
+      "Zap",
+      "Giant",
+      "Bandit",
+      "Goblin Machine",
+      "Guards",
+      "Rage",
+      "Goblin Curse"
+    ]
+  },
+  {
+    "name": "Evo Witch Giant Graveyard Snowball",
+    "cards": [
+      "Witch",
+      "Giant Snowball",
+      "Giant",
+      "Graveyard",
+      "Bowler",
+      "Minions",
+      "Guards",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Retro Giant Musk MP Archers",
+    "cards": [
+      "Giant",
+      "Mini P.E.K.K.A",
+      "Knight",
+      "Musketeer",
+      "Minions",
+      "Archers",
+      "Fireball",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Evo Lumber Giant Prince Rage Lightning",
+    "cards": [
+      "Lumberjack",
+      "Zap",
+      "Giant",
+      "Prince",
+      "Mega Minion",
+      "Bomber",
+      "Rage",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Evo Wizard Prince Sparky Rage",
+    "cards": [
+      "Wizard",
+      "Bats",
+      "Giant",
+      "Sparky",
+      "Prince",
+      "Minions",
+      "Rage",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Void Unleashed Giant Beatdown",
+    "cards": [
+      "Bomber",
+      "Giant",
+      "Little Prince",
+      "Fisherman",
+      "Phoenix",
+      "Night Witch",
+      "Void",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Giant Little Prince Void beatdown",
+    "cards": [
+      "Knight",
+      "Bomber",
+      "Giant",
+      "Little Prince",
+      "Fisherman",
+      "Phoenix",
+      "Void",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Giant Evo Bomber Pump beatdown",
+    "cards": [
+      "Giant",
+      "Little Prince",
+      "Phoenix",
+      "Night Witch",
+      "Bomber",
+      "Elixir Collector",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Giant Phoenix Bowler",
+    "cards": [
+      "Giant",
+      "Little Prince",
+      "Knight",
+      "Bowler",
+      "Phoenix",
+      "Bomber",
+      "Lightning",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Giant Graveyard Little Prince",
+    "cards": [
+      "Bats",
+      "Archers",
+      "Giant",
+      "Graveyard",
+      "Little Prince",
+      "Bowler",
+      "Arrows",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Little Prince Giant Graveyard Evo Archers",
+    "cards": [
+      "Archers",
+      "Giant",
+      "Graveyard",
+      "Little Prince",
+      "Bowler",
+      "Goblins",
+      "Arrows",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Giant Night Witch Bats Graveyard",
+    "cards": [
+      "Bats",
+      "Giant",
+      "Graveyard",
+      "Bowler",
+      "Night Witch",
+      "Skeleton Army",
+      "Arrows",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Giant Rage Witch Pump Rage",
+    "cards": [
+      "Giant",
+      "Mini P.E.K.K.A",
+      "Dark Prince",
+      "Witch",
+      "Elixir Collector",
+      "Rage",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Arena 4: Giant beatdown",
+    "cards": [
+      "Giant",
+      "Knight",
+      "Musketeer",
+      "Skeleton Dragons",
+      "Electro Spirit",
+      "Inferno Tower",
+      "Fireball",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Arena 3: Giant beatdown",
+    "cards": [
+      "Giant",
+      "Mini P.E.K.K.A",
+      "Musketeer",
+      "Mega Minion",
+      "Skeletons",
+      "Goblin Cage",
+      "Fireball",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Skeleton King Giant Sparky Barbarians",
+    "cards": [
+      "Giant",
+      "Graveyard",
+      "Skeleton King",
+      "Sparky",
+      "Hunter",
+      "Zappies",
+      "Barbarians",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Giant Miner Phoenix",
+    "cards": [
+      "Giant",
+      "Miner",
+      "Prince",
+      "Dark Prince",
+      "Electro Wizard",
+      "Phoenix",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Giant GY Archer Queen",
+    "cards": [
+      "Giant",
+      "Graveyard",
+      "Archer Queen",
+      "Dark Prince",
+      "Minions",
+      "Skeleton Army",
+      "Arrows",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Giant Loon Freeze",
+    "cards": [
+      "Giant",
+      "Balloon",
+      "Minion Horde",
+      "Minions",
+      "Skeleton Army",
+      "Skeletons",
+      "Freeze",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Retro Royale Giant Sparky Rage",
+    "cards": [
+      "Giant",
+      "Sparky",
+      "Mini P.E.K.K.A",
+      "Dark Prince",
+      "Wizard",
+      "Minion Horde",
+      "Elixir Collector",
+      "Rage"
+    ]
+  },
+  {
+    "name": "P.E.K.K.A, Mortar — NaN",
+    "cards": [
+      "Arrows",
+      "Mirror",
+      "Knight",
+      "Musketeer",
+      "P.E.K.K.A",
+      "Witch",
+      "Baby Dragon",
+      "Mortar"
+    ]
+  },
+  {
+    "name": "Golem — 4.4",
+    "cards": [
+      "Valkyrie",
+      "Witch",
+      "Prince",
+      "Minions",
+      "Arrows",
+      "Vines",
+      "Golem",
+      "Golden Knight"
+    ]
+  },
+  {
+    "name": "Boss Bandit — 3.5",
+    "cards": [
+      "Skeletons",
+      "Fire Spirit",
+      "Magic Archer",
+      "Dart Goblin",
+      "Boss Bandit",
+      "Dark Prince",
+      "Royal Recruits",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Royal Giant Phoenix Ghost Fireball",
+    "cards": [
+      "Royal Giant",
+      "Royal Ghost",
+      "Fisherman",
+      "Phoenix",
+      "Goblins",
+      "Electro Spirit",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Royal Giant Monk Phoenix Mother Witch",
+    "cards": [
+      "Royal Giant",
+      "Monk",
+      "Fisherman",
+      "Mother Witch",
+      "Phoenix",
+      "Goblins",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "RG Phoenix Ghost Mother Witch",
+    "cards": [
+      "Royal Giant",
+      "Royal Ghost",
+      "Fisherman",
+      "Mother Witch",
+      "Phoenix",
+      "Goblins",
+      "Lightning",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Royal Giant Ghost Lightning",
+    "cards": [
+      "Royal Giant",
+      "Royal Ghost",
+      "Fisherman",
+      "Hunter",
+      "Electro Spirit",
+      "Lightning",
+      "Arrows",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "RG Monk Phoenix Fisherman",
+    "cards": [
+      "Royal Giant",
+      "Monk",
+      "Fisherman",
+      "Hunter",
+      "Phoenix",
+      "Goblins",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Royal Giant Skeleton King Goblin Gang",
+    "cards": [
+      "Royal Giant",
+      "Skeleton King",
+      "Fisherman",
+      "Mother Witch",
+      "Zappies",
+      "Goblin Gang",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Super Witch Royal Giant",
+    "cards": [
+      "Royal Giant",
+      "Fisherman",
+      "Hunter",
+      "Witch",
+      "Skeletons",
+      "Electro Spirit",
+      "Lightning",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Skeleton King RG beatdown",
+    "cards": [
+      "Royal Giant",
+      "Skeleton King",
+      "Fisherman",
+      "Hunter",
+      "Electro Spirit",
+      "Tombstone",
+      "Lightning",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Hog Rider Royal Giant Barbarians Fireball bait",
+    "cards": [
+      "Royal Giant",
+      "Hog Rider",
+      "Sparky",
+      "Barbarians",
+      "Mega Minion",
+      "Minion Horde",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Golden Knight Royal Giant",
+    "cards": [
+      "Royal Giant",
+      "Golden Knight",
+      "Fisherman",
+      "Mother Witch",
+      "Baby Dragon",
+      "Electro Spirit",
+      "Lightning",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Archer Queen Royal Giant",
+    "cards": [
+      "Royal Giant",
+      "Archer Queen",
+      "Royal Ghost",
+      "Fisherman",
+      "Mother Witch",
+      "Skeletons",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "RG Fisherman Mother Witch",
+    "cards": [
+      "Royal Giant",
+      "Dark Prince",
+      "Fisherman",
+      "Mother Witch",
+      "Mega Minion",
+      "Electro Spirit",
+      "Lightning",
+      "The Log"
+    ]
+  },
+  {
+    "name": "RG Mother Witch Fisherman",
+    "cards": [
+      "Royal Giant",
+      "Dark Prince",
+      "Fisherman",
+      "Mother Witch",
+      "Mega Minion",
+      "Goblin Cage",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "P.E.K.K.A Duo RG",
+    "cards": [
+      "Royal Giant",
+      "P.E.K.K.A",
+      "Mini P.E.K.K.A",
+      "Electro Wizard",
+      "Baby Dragon",
+      "Lightning",
+      "Arrows",
+      "The Log"
+    ]
+  },
+  {
+    "name": "RG GS Zappies",
+    "cards": [
+      "Royal Giant",
+      "Giant Skeleton",
+      "Fisherman",
+      "Hunter",
+      "Zappies",
+      "Electro Spirit",
+      "Earthquake",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "RG Electro Spirit cycle",
+    "cards": [
+      "Royal Giant",
+      "Fisherman",
+      "Electro Wizard",
+      "Hunter",
+      "Electro Spirit",
+      "Heal Spirit",
+      "Fireball",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Royal Giant Fisher",
+    "cards": [
+      "Royal Giant",
+      "Fisherman",
+      "Hunter",
+      "Skeleton Dragons",
+      "Skeletons",
+      "Heal Spirit",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "RG Hunter Fisherman cycle",
+    "cards": [
+      "Royal Giant",
+      "Fisherman",
+      "Hunter",
+      "Bats",
+      "Skeletons",
+      "Heal Spirit",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Spirit Empress Golem Pump",
+    "cards": [
+      "Lumberjack",
+      "Electro Dragon",
+      "Golem",
+      "Spirit Empress",
+      "Dark Prince",
+      "Elixir Collector",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Skeleton King Golem Lightning",
+    "cards": [
+      "Electro Dragon",
+      "Bomber",
+      "Golem",
+      "Skeleton King",
+      "Night Witch",
+      "Tombstone",
+      "Lightning",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Boss Bandit Lumberjack Golem Pump",
+    "cards": [
+      "Lumberjack",
+      "Electro Dragon",
+      "Golem",
+      "Bandit",
+      "Ice Wizard",
+      "Elixir Collector",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Snowstorm Golem Little Prince",
+    "cards": [
+      "Skeletons",
+      "Golem",
+      "Little Prince",
+      "Fisherman",
+      "Ice Spirit",
+      "Heal Spirit",
+      "Poison",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Spooky Chess Golem",
+    "cards": [
+      "Golem",
+      "Goblinstein",
+      "Flying Machine",
+      "Firecracker",
+      "Rage",
+      "Tornado",
+      "Giant Snowball",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Evo Goblin Cage Golem Void",
+    "cards": [
+      "Wizard",
+      "Goblin Cage",
+      "Golem",
+      "Skeleton King",
+      "Night Witch",
+      "Void",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem Healer Evo Barbs Pump",
+    "cards": [
+      "Barbarians",
+      "Zap",
+      "Golem",
+      "Little Prince",
+      "Battle Healer",
+      "Electro Dragon",
+      "Elixir Collector",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Golem Evo Knight Healer",
+    "cards": [
+      "Knight",
+      "Golem",
+      "Little Prince",
+      "Battle Healer",
+      "Electro Dragon",
+      "Elixir Collector",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem Evo Barbs Pump",
+    "cards": [
+      "Barbarians",
+      "Golem",
+      "Lumberjack",
+      "Electro Dragon",
+      "Skeleton Dragons",
+      "Elixir Collector",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem NW Lumberjack",
+    "cards": [
+      "Bomber",
+      "Golem",
+      "Elite Barbarians",
+      "Lumberjack",
+      "Night Witch",
+      "Mega Minion",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Golem Phoenix EBarbs beatdown",
+    "cards": [
+      "Golem",
+      "Elite Barbarians",
+      "Lumberjack",
+      "Phoenix",
+      "Night Witch",
+      "Bomber",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Phoenix Golem beatdown",
+    "cards": [
+      "Golem",
+      "Lumberjack",
+      "Dark Prince",
+      "Phoenix",
+      "Electro Dragon",
+      "Elixir Collector",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Skeleton King Golem beatdown",
+    "cards": [
+      "Golem",
+      "Skeleton King",
+      "Night Witch",
+      "Baby Dragon",
+      "Tombstone",
+      "Lightning",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Super Witch Skeleton King Golem",
+    "cards": [
+      "Golem",
+      "Skeleton King",
+      "Witch",
+      "Baby Dragon",
+      "Bomber",
+      "Tombstone",
+      "Lightning",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Golden Knight Golem",
+    "cards": [
+      "Golem",
+      "Golden Knight",
+      "Cannon Cart",
+      "Electro Dragon",
+      "Baby Dragon",
+      "Mega Minion",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem Clone",
+    "cards": [
+      "Golem",
+      "Lumberjack",
+      "Night Witch",
+      "Baby Dragon",
+      "Bats",
+      "Skeleton Army",
+      "Clone",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Mother Witch Golem",
+    "cards": [
+      "Golem",
+      "Dark Prince",
+      "Mother Witch",
+      "Night Witch",
+      "Baby Dragon",
+      "Lightning",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem Skeleton Dragons Pump",
+    "cards": [
+      "Lumberjack",
+      "Electro Dragon",
+      "Golem",
+      "Dark Prince",
+      "Skeleton Dragons",
+      "Elixir Collector",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Royal Delivery Golem beatdown",
+    "cards": [
+      "Golem",
+      "Mini P.E.K.K.A",
+      "Night Witch",
+      "Baby Dragon",
+      "Mega Minion",
+      "Earthquake",
+      "Tornado",
+      "Royal Delivery"
+    ]
+  },
+  {
+    "name": "Golem Healer Beatdown",
+    "cards": [
+      "Golem",
+      "Battle Healer",
+      "Night Witch",
+      "Baby Dragon",
+      "Mega Minion",
+      "Poison",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Golem Healer Lightning",
+    "cards": [
+      "Golem",
+      "Mini P.E.K.K.A",
+      "Battle Healer",
+      "Night Witch",
+      "Baby Dragon",
+      "Mega Minion",
+      "Lightning",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Golem Exe Beatdown",
+    "cards": [
+      "Golem",
+      "Executioner",
+      "Night Witch",
+      "Baby Dragon",
+      "Goblin Cage",
+      "Lightning",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Magical Trio Wall Breakers Sus Bush Berserker",
+    "cards": [
+      "Wall Breakers",
+      "Dart Goblin",
+      "Goblin Barrel",
+      "Suspicious Bush",
+      "Berserker",
+      "Wizard",
+      "Ice Spirit",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Disturbed Graves Evo Witch Bowler Barrel",
+    "cards": [
+      "Witch",
+      "Firecracker",
+      "Goblin Barrel",
+      "Knight",
+      "Bowler",
+      "Magic Archer",
+      "Bomber",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Prince Log Bait",
+    "cards": [
+      "Goblin Barrel",
+      "Prince",
+      "Rascals",
+      "Knight",
+      "Princess",
+      "Dart Goblin",
+      "Goblin Gang",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Goblin Ladder Barrel Demolisher Dart Gob",
+    "cards": [
+      "Goblin Giant",
+      "Goblin Barrel",
+      "Goblin Demolisher",
+      "Dart Goblin",
+      "Goblins",
+      "Goblin Cage",
+      "Arrows",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Goblin Power Log Bait",
+    "cards": [
+      "Goblin Giant",
+      "Goblin Barrel",
+      "Dart Goblin",
+      "Goblin Gang",
+      "Goblins",
+      "Goblin Cage",
+      "Arrows",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Goblin Power Barrel Goblin Giant",
+    "cards": [
+      "Goblin Giant",
+      "Goblin Barrel",
+      "Goblin Gang",
+      "Goblins",
+      "Spear Goblins",
+      "Goblin Cage",
+      "Arrows",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Spell Cauldron Log Bait Poison",
+    "cards": [
+      "Knight",
+      "Skeletons",
+      "Goblin Barrel",
+      "Princess",
+      "Goblin Gang",
+      "Inferno Tower",
+      "Poison",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Love Sparks Bait spam",
+    "cards": [
+      "Firecracker",
+      "Skeletons",
+      "Goblin Barrel",
+      "Skeleton Barrel",
+      "Inferno Dragon",
+      "Ice Spirit",
+      "Arrows",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Princess Skeleton Barrel Evo Knight Bait",
+    "cards": [
+      "Knight",
+      "Goblin Barrel",
+      "Skeleton Barrel",
+      "Princess",
+      "Dart Goblin",
+      "Skeleton Army",
+      "Inferno Tower",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Princess Royal Recruits Rascals Bait",
+    "cards": [
+      "Royal Recruits",
+      "Goblin Barrel",
+      "Wall Breakers",
+      "Rascals",
+      "Princess",
+      "Dart Goblin",
+      "Goblin Gang",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Chess Royale Goblin Barrel Witch",
+    "cards": [
+      "Goblin Barrel",
+      "Witch",
+      "Inferno Dragon",
+      "Firecracker",
+      "Dart Goblin",
+      "Mirror",
+      "Fireball",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Goblin Outbreak Barrel Cage Mighty Miner",
+    "cards": [
+      "Goblin Barrel",
+      "Mighty Miner",
+      "Dart Goblin",
+      "Goblins",
+      "Ice Spirit",
+      "Goblin Cage",
+      "Arrows",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Goblin Outbreak Giant Hut Cage",
+    "cards": [
+      "Goblin Giant",
+      "Goblin Barrel",
+      "Dart Goblin",
+      "Goblin Gang",
+      "Goblins",
+      "Spear Goblins",
+      "Goblin Cage",
+      "Goblin Hut"
+    ]
+  },
+  {
+    "name": "Goblin Outbreak Barrel Cage Mighty Miner Rocket",
+    "cards": [
+      "Goblin Barrel",
+      "Mighty Miner",
+      "Dart Goblin",
+      "Goblins",
+      "Ice Spirit",
+      "Goblin Cage",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Super Magic Archer Spam bait",
+    "cards": [
+      "Goblin Barrel",
+      "Skeleton Barrel",
+      "Magic Archer",
+      "Skeletons",
+      "Ice Spirit",
+      "Tombstone",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Dark Prince Cannon Cart Logbait",
+    "cards": [
+      "Goblin Barrel",
+      "Cannon Cart",
+      "Dark Prince",
+      "Rascals",
+      "Bandit",
+      "Princess",
+      "Rocket",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "3.0 Mighty Miner Bait Cycle with Gobs",
+    "cards": [
+      "Goblin Barrel",
+      "Mighty Miner",
+      "Princess",
+      "Goblins",
+      "Ice Spirit",
+      "Cannon",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Nightmare Bats Valk bait",
+    "cards": [
+      "Goblin Barrel",
+      "Valkyrie",
+      "Ice Wizard",
+      "Dart Goblin",
+      "Skeletons",
+      "Cannon",
+      "Giant Snowball",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Mighty Miner Mirror bait",
+    "cards": [
+      "Goblin Barrel",
+      "Mighty Miner",
+      "Dart Goblin",
+      "Fire Spirit",
+      "Cannon",
+      "Mirror",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Super Mini P.E.K.K.A bait cycle",
+    "cards": [
+      "Goblin Barrel",
+      "Mini P.E.K.K.A",
+      "Dart Goblin",
+      "Skeletons",
+      "Fire Spirit",
+      "Cannon",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Gob-arian's Revenge Skeleton King Zap bait",
+    "cards": [
+      "Goblin Barrel",
+      "Skeleton Barrel",
+      "Skeleton King",
+      "Dart Goblin",
+      "Skeleton Army",
+      "Bomb Tower",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Giant Skeleton Sparky Mirror Bait",
+    "cards": [
+      "Goblin Barrel",
+      "Skeleton King",
+      "Giant Skeleton",
+      "Sparky",
+      "Hunter",
+      "Skeleton Army",
+      "Mirror",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Mighty Miner Tesla bait",
+    "cards": [
+      "Goblin Barrel",
+      "Mighty Miner",
+      "Princess",
+      "Guards",
+      "Electro Spirit",
+      "Tesla",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Valk Rocket Inferno bait",
+    "cards": [
+      "Goblin Barrel",
+      "Valkyrie",
+      "Princess",
+      "Guards",
+      "Electro Spirit",
+      "Inferno Tower",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Valk Skeleton Barrel Inferno bait",
+    "cards": [
+      "Goblin Barrel",
+      "Skeleton Barrel",
+      "Valkyrie",
+      "Princess",
+      "Dart Goblin",
+      "Skeleton Army",
+      "Inferno Tower",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Magic Archer Princess bait",
+    "cards": [
+      "Goblin Barrel",
+      "Valkyrie",
+      "Magic Archer",
+      "Princess",
+      "Skeleton Army",
+      "Tesla",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Goblin Drill Mega Knight Spam",
+    "cards": [
+      "Wall Breakers",
+      "Bats",
+      "Goblin Drill",
+      "Skeleton Barrel",
+      "Mega Knight",
+      "Inferno Dragon",
+      "Goblin Gang",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Goblin Demolisher Mega Knight Evo Firecracker",
+    "cards": [
+      "Firecracker",
+      "Goblin Barrel",
+      "Miner",
+      "Mega Knight",
+      "Goblin Demolisher",
+      "Goblin Gang",
+      "Electro Spirit",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Goblin Demolisher Mega Knight Ram Rider",
+    "cards": [
+      "Bats",
+      "Ram Rider",
+      "Mega Knight",
+      "Goblin Demolisher",
+      "Prince",
+      "Phoenix",
+      "Goblin Curse",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Magical Trio Hog Mega Knight",
+    "cards": [
+      "Hog Rider",
+      "Little Prince",
+      "Mega Knight",
+      "Royal Ghost",
+      "Wizard",
+      "Royal Delivery",
+      "The Log",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Love Sparks Mega Knight Firecracker",
+    "cards": [
+      "Bats",
+      "Firecracker",
+      "Skeleton Barrel",
+      "Mega Knight",
+      "Mini P.E.K.K.A",
+      "Inferno Dragon",
+      "Spear Goblins",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Mega Knight Miner Evo Wall Breakers",
+    "cards": [
+      "Wall Breakers",
+      "Bats",
+      "Miner",
+      "Little Prince",
+      "Mega Knight",
+      "Bandit",
+      "Barbarian Barrel",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Barrels o' Fun Ram Rider Mega Knight",
+    "cards": [
+      "Zap",
+      "Ram Rider",
+      "Little Prince",
+      "Mega Knight",
+      "Royal Ghost",
+      "Bandit",
+      "Flying Machine",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Wall Breakers Mega Knight Prince Firecracker",
+    "cards": [
+      "Wall Breakers",
+      "Mega Knight",
+      "Prince",
+      "Bandit",
+      "Bats",
+      "Firecracker",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Raging Ram Rider Mega Knight Freeze",
+    "cards": [
+      "Ram Rider",
+      "Mega Knight",
+      "Fisherman",
+      "Goblins",
+      "Ice Spirit",
+      "Bomb Tower",
+      "Freeze",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Ram Rider Archer Queen Mega Knight",
+    "cards": [
+      "Ram Rider",
+      "Archer Queen",
+      "Mega Knight",
+      "Royal Ghost",
+      "Bandit",
+      "Bats",
+      "Lightning",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Archer Queen Mega Knight Furnace Hut",
+    "cards": [
+      "Archer Queen",
+      "Mega Knight",
+      "Furnace",
+      "Minions",
+      "Goblin Gang",
+      "Goblin Hut",
+      "Lightning",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Archer Queen Mega Knight Wall Breakers",
+    "cards": [
+      "Bats",
+      "Wall Breakers",
+      "Archer Queen",
+      "Mega Knight",
+      "Prince",
+      "Bandit",
+      "Arrows",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Goblin Outbreak Barrel Mega Knight Cage",
+    "cards": [
+      "Goblin Barrel",
+      "Skeleton Barrel",
+      "Mega Knight",
+      "Bats",
+      "Dart Goblin",
+      "Goblin Gang",
+      "Goblin Cage",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Mega Knight Firecracker Hog Witch",
+    "cards": [
+      "Mega Knight",
+      "Firecracker",
+      "Hog Rider",
+      "Witch",
+      "Cannon",
+      "Goblin Curse",
+      "Poison",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "Evo Cannon Hog Valk Firecracker",
+    "cards": [
+      "Firecracker",
+      "Cannon",
+      "Hog Rider",
+      "Valkyrie",
+      "Skeletons",
+      "Ice Spirit",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Touchdown Hog Royal Hogs Mother Witch",
+    "cards": [
+      "Ice Spirit",
+      "Cannon",
+      "Hog Rider",
+      "Royal Hogs",
+      "Mother Witch",
+      "Tombstone",
+      "Bomb Tower",
+      "Earthquake"
+    ]
+  },
+  {
+    "name": "Touchdown Hog Royal Hogs Rage",
+    "cards": [
+      "Wall Breakers",
+      "Cannon",
+      "Hog Rider",
+      "Royal Hogs",
+      "Ice Spirit",
+      "Bomb Tower",
+      "Rage",
+      "Earthquake"
+    ]
+  },
+  {
+    "name": "Rune Giant Firecracker Hog cycle",
+    "cards": [
+      "Firecracker",
+      "Skeletons",
+      "Rune Giant",
+      "Hog Rider",
+      "Ice Spirit",
+      "Cannon",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Clash Melee Hog Ghost Fisherman",
+    "cards": [
+      "Hog Rider",
+      "Royal Ghost",
+      "Fisherman",
+      "Phoenix",
+      "Bats",
+      "Guards",
+      "Ice Spirit",
+      "Arrows"
+    ]
+  },
+  {
+    "name": "2.8 Hog Void Cycle",
+    "cards": [
+      "Hog Rider",
+      "Knight",
+      "Firecracker",
+      "Goblins",
+      "Ice Spirit",
+      "Tesla",
+      "Void",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Hog Evo Wizard Void",
+    "cards": [
+      "Knight",
+      "Wizard",
+      "Hog Rider",
+      "Giant Skeleton",
+      "Skeleton Army",
+      "Void",
+      "Tornado",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Evo Tesla Firecracker Hog",
+    "cards": [
+      "Firecracker",
+      "Tesla",
+      "Hog Rider",
+      "Mighty Miner",
+      "Skeletons",
+      "Ice Spirit",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Party Rocket Hog Firecracker",
+    "cards": [
+      "Firecracker",
+      "Hog Rider",
+      "Knight",
+      "Skeletons",
+      "Tesla",
+      "Rocket",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Love Sparks Hog Musk",
+    "cards": [
+      "Barbarians",
+      "Hog Rider",
+      "Mini P.E.K.K.A",
+      "Musketeer",
+      "Inferno Dragon",
+      "Arrows",
+      "Giant Snowball",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Evo Bomber Hog cycle",
+    "cards": [
+      "Bomber",
+      "Hog Rider",
+      "Ice Golem",
+      "Musketeer",
+      "Ice Spirit",
+      "Cannon",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Evo Valk Firecracker Hog cycle",
+    "cards": [
+      "Valkyrie",
+      "Hog Rider",
+      "Firecracker",
+      "Goblins",
+      "Ice Spirit",
+      "Bomb Tower",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Spirit Empress Evo Witch Gob Hut Graveyard",
+    "cards": [
+      "Knight",
+      "Witch",
+      "Graveyard",
+      "Spirit Empress",
+      "Skeletons",
+      "Goblin Hut",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Witch Gob Hut Graveyard Poison",
+    "cards": [
+      "Knight",
+      "Witch",
+      "Graveyard",
+      "Ice Wizard",
+      "Skeletons",
+      "Goblin Hut",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Exe Splashyard Freeze",
+    "cards": [
+      "Executioner",
+      "Skeletons",
+      "Graveyard",
+      "Skeleton King",
+      "Bowler",
+      "Inferno Dragon",
+      "Freeze",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Evo Cannon Goblinstein splashyard",
+    "cards": [
+      "Knight",
+      "Cannon",
+      "Graveyard",
+      "Goblinstein",
+      "Ice Wizard",
+      "Poison",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Evo Cage Goblinstein Splashyard",
+    "cards": [
+      "Skeletons",
+      "Goblin Cage",
+      "Graveyard",
+      "Goblinstein",
+      "Ice Wizard",
+      "Poison",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Goblinstein Evo Cage Graveyard Freeze",
+    "cards": [
+      "Bomber",
+      "Goblin Cage",
+      "Graveyard",
+      "Goblinstein",
+      "Ice Wizard",
+      "Freeze",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Goblinstein Evo Cage Graveyard Poison",
+    "cards": [
+      "Knight",
+      "Goblin Cage",
+      "Graveyard",
+      "Goblinstein",
+      "Baby Dragon",
+      "Skeletons",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Sudden death Evo Wizard Splashyard",
+    "cards": [
+      "Knight",
+      "Wizard",
+      "Graveyard",
+      "Bowler",
+      "Mother Witch",
+      "Inferno Dragon",
+      "Freeze",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Triple Elixir Graveyard Splash Tesla",
+    "cards": [
+      "Valkyrie",
+      "Tesla",
+      "Graveyard",
+      "Bowler",
+      "Executioner",
+      "Phoenix",
+      "Poison",
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Splashyard with Void",
+    "cards": [
+      "Graveyard",
+      "Knight",
+      "Ice Wizard",
+      "Baby Dragon",
+      "Tombstone",
+      "Void",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "X-Bow Little Prince Pump cycle",
+    "cards": [
+      "Knight",
+      "X-Bow",
+      "Little Prince",
+      "Goblins",
+      "Fire Spirit",
+      "Ice Spirit",
+      "Elixir Collector",
+      "The Log"
+    ]
+  },
+  {
+    "name": "XBow Monk cycle",
+    "cards": [
+      "X-Bow",
+      "Monk",
+      "Musketeer",
+      "Skeletons",
+      "Electro Spirit",
+      "Tesla",
+      "Rocket",
+      "The Log"
+    ]
+  },
+  {
+    "name": "QueenBow",
+    "cards": [
+      "X-Bow",
+      "Archer Queen",
+      "Knight",
+      "Skeletons",
+      "Fire Spirit",
+      "Cannon",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "3.0 X-Bow cycle",
+    "cards": [
+      "Archers",
+      "X-Bow",
+      "Knight",
+      "Skeletons",
+      "Ice Spirit",
+      "Tesla",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "XBow Pump cycle",
+    "cards": [
+      "X-Bow",
+      "Knight",
+      "Musketeer",
+      "Skeletons",
+      "Tesla",
+      "Elixir Collector",
+      "The Log",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "X-Bow eWiz cycle",
+    "cards": [
+      "X-Bow",
+      "Ice Golem",
+      "Electro Wizard",
+      "Guards",
+      "Ice Spirit",
+      "Inferno Tower",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "X-Bow Control Rocket",
+    "cards": [
+      "X-Bow",
+      "Knight",
+      "Ice Wizard",
+      "Mega Minion",
+      "Skeletons",
+      "Rocket",
+      "Tornado",
+      "The Log"
+    ]
+  },
+  {
+    "name": "XBow Splash Nado",
+    "cards": [
+      "X-Bow",
+      "Ice Golem",
+      "Ice Wizard",
+      "Mega Minion",
+      "Fire Spirit",
+      "Fireball",
+      "Tornado",
+      "The Log"
+    ]
+  },
+  {
+    "name": "XBow Tesla Valkyrie",
+    "cards": [
+      "X-Bow",
+      "Valkyrie",
+      "Archers",
+      "Skeletons",
+      "Ice Spirit",
+      "Tesla",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "X-Bow Control Ice Golem",
+    "cards": [
+      "X-Bow",
+      "Ice Golem",
+      "Archers",
+      "Skeletons",
+      "Fire Spirit",
+      "Tesla",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "X-Bow Rascals",
+    "cards": [
+      "X-Bow",
+      "Rascals",
+      "Mega Minion",
+      "Skeletons",
+      "Ice Spirit",
+      "Tesla",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Inferno X-Bow",
+    "cards": [
+      "X-Bow",
+      "Ice Golem",
+      "Archers",
+      "Skeletons",
+      "Ice Spirit",
+      "Inferno Tower",
+      "Fireball",
+      "The Log"
+    ]
+  },
+  {
+    "name": "PEKKA Zap bridge spam",
+    "cards": [
+      "Battle Ram",
+      "P.E.K.K.A",
+      "Royal Ghost",
+      "Bandit",
+      "Electro Wizard",
+      "Magic Archer",
+      "Fireball",
+      "Zap"
+    ]
+  },
+  {
+    "name": "Mighty Miner Firecracker Hog",
+    "cards": [
+      "Hog Rider",
+      "Mighty Miner",
+      "Firecracker",
+      "Goblins",
+      "Ice Spirit",
+      "Bomb Tower",
+      "Earthquake",
+      "The Log"
+    ]
+  },
+  {
+    "name": "Splashyard with Barb barrel",
+    "cards": [
+      "Graveyard",
+      "Knight",
+      "Ice Wizard",
+      "Baby Dragon",
+      "Tombstone",
+      "Poison",
+      "Tornado",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Skeleton King Mortar Bait",
+    "cards": [
+      "Mortar",
+      "Skeleton Barrel",
+      "Skeleton King",
+      "Cannon Cart",
+      "Dart Goblin",
+      "Skeleton Army",
+      "Goblin Gang",
+      "Fireball"
+    ]
+  },
+  {
+    "name": "Golden Knight 3M eBarbs Pump",
+    "cards": [
+      "Three Musketeers",
+      "Golden Knight",
+      "Elite Barbarians",
+      "Royal Ghost",
+      "Bandit",
+      "Heal Spirit",
+      "Elixir Collector",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "Phoenix Goblin Hut Rascals Graveyard",
+    "cards": [
+      "Graveyard",
+      "Skeleton King",
+      "Rascals",
+      "Phoenix",
+      "Goblins",
+      "Goblin Hut",
+      "Poison",
+      "Barbarian Barrel"
+    ]
+  },
+  {
+    "name": "GobHut Witch Heist spam",
+    "cards": [
+      "Valkyrie",
+      "Witch",
+      "Inferno Dragon",
+      "Electro Dragon",
+      "Flying Machine",
+      "Goblin Hut",
+      "Poison",
+      "Royal Delivery"
+    ]
+  },
+  {
+    "name": "Mega Monk Prince Phoenix Rage",
+    "cards": [
+      "Prince",
+      "Phoenix",
+      "Zappies",
+      "Electro Dragon",
+      "Skeleton Army",
+      "Tombstone",
+      "Rage",
+      "Poison"
+    ]
+  },
+  {
+    "name": "Lumberloon Bait Cycle",
+    "cards": [
+      "Balloon",
+      "Lumberjack",
+      "Bats",
+      "Princess",
+      "Goblins",
+      "Ice Spirit",
+      "Barbarian Barrel",
+      "Giant Snowball"
+    ]
+  },
+  {
+    "name": "Magic Archer Princess Bridge spam",
+    "cards": [
+      "Goblin Drill",
+      "Wall Breakers",
+      "Royal Recruits",
+      "Elite Barbarians",
+      "Royal Ghost",
+      "Bandit",
+      "Magic Archer",
+      "Princess"
+    ]
+  }
+]
