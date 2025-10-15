@@ -15,26 +15,38 @@
         <div>CR Deck Predictor</div>
       </div>
       <nav aria-label="primary" class="nav">
-        <a href="#decks"></a>
-        <a href="#about"></a>
+        <a href="#decks">Decks</a>
+        <a href="#about">About</a>
       </nav>
     </div>  
   </header>
 
   <main>
     <section class="hero container">
-      <h1 class="title compact">CR Deck Predictor</h1>
-      <p class="subtitle compact">Search and add cards to your deck</p>
+      <h1 class="title">Welcome to <span class="grad">CR Deck Predictor</span></h1>
+      <p class="subtitle">Search a card and click <strong>Add</strong> to drop it into the next empty slot. (Pure front‑end demo; wire to your backend later.)</p>
+      <div class="divider"></div>
       <div class="search-bar center">
         <div class="input-group">
           <input id="cardSearch" type="text" placeholder="Search cards..." />
           <button id="addBtn" type="button">Add</button>
         </div>
       </div>
+
+
+      <div class="filters" aria-hidden="true">
+        <span class="chip">All</span>
+        <span class="chip">Beatdown</span>
+        <span class="chip">Control</span>
+        <span class="chip">Cycle</span>
+        <span class="chip">Miner</span>
+        <span class="chip">Hog</span>
+        <span class="chip">Log Bait</span>
+      </div>
     </section>
 
     <section id="decks" class="container">
-      <div class="grid deck-grid">
+      <div class="grid">
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 1</span></div><div class="row"><span class="tag">Type</span></div></div></article>
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 2</span></div><div class="row"><span class="tag">Type</span></div></div></article>
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 3</span></div><div class="row"><span class="tag">Type</span></div></div></article>
@@ -45,157 +57,11 @@
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 8</span></div><div class="row"><span class="tag">Type</span></div></div></article>
       </div>
     </section>
-
-    <section class="suggestions-section container">
-      <h2 class="suggestions-title">Predicted Cards</h2>
-      <div class="grid suggestions-grid">
-        <article class="suggestion-card" data-slot="1">
-          <div class="thumb"><div class="placeholder"></div></div>
-          <div class="meta">
-            <div class="name"><span class="suggestion-name">-</span></div>
-            <div class="row"><span class="frequency">0%</span></div>
-          </div>
-        </article>
-        <article class="suggestion-card" data-slot="2">
-          <div class="thumb"><div class="placeholder"></div></div>
-          <div class="meta">
-            <div class="name"><span class="suggestion-name">-</span></div>
-            <div class="row"><span class="frequency">0%</span></div>
-          </div>
-        </article>
-        <article class="suggestion-card" data-slot="3">
-          <div class="thumb"><div class="placeholder"></div></div>
-          <div class="meta">
-            <div class="name"><span class="suggestion-name">-</span></div>
-            <div class="row"><span class="frequency">0%</span></div>
-          </div>
-        </article>
-        <article class="suggestion-card" data-slot="4">
-          <div class="thumb"><div class="placeholder"></div></div>
-          <div class="meta">
-            <div class="name"><span class="suggestion-name">-</span></div>
-            <div class="row"><span class="frequency">0%</span></div>
-          </div>
-        </article>
-        <article class="suggestion-card" data-slot="5">
-          <div class="thumb"><div class="placeholder"></div></div>
-          <div class="meta">
-            <div class="name"><span class="suggestion-name">-</span></div>
-            <div class="row"><span class="frequency">0%</span></div>
-          </div>
-        </article>
-      </div>
-    </section>
   </main>
 
   <footer id="about" class="container">
     Built with plain <strong>HTML</strong> + <strong>CSS</strong> + a tiny bit of <strong>JS</strong> for the Add button.
   </footer>
-  <script>
-  const input = document.getElementById('cardSearch');
-  const addBtn = document.getElementById('addBtn');
-  const slots = Array.from(document.querySelectorAll('.card'));
-
-  // Load card data (expects cards.json in same folder as index.html)
-  let ALL_CARDS = [];
-  fetch('cards.json')
-    .then(r => r.json())
-    .then(data => { ALL_CARDS = data; })
-    .catch(err => console.error('Failed to load cards.json', err));
-
-  // Helpers
-  const norm = s => s.trim().toLowerCase();
-
-  function getCardByQuery(q) {
-    if (!q) return null;
-    const query = norm(q);
-
-    // 1) exact name match
-    let card = ALL_CARDS.find(c => norm(c.name) === query);
-    if (card) return card;
-
-    // 2) startsWith match
-    card = ALL_CARDS.find(c => norm(c.name).startsWith(query));
-    if (card) return card;
-
-    // 3) includes match
-    return ALL_CARDS.find(c => norm(c.name).includes(query)) || null;
-  }
-
-  function slotHasName(slot, name) {
-    return norm(slot.querySelector('.slot-name').textContent) === norm(name);
-  }
-
-  function deckAlreadyHas(name) {
-    return slots.some(s => slotHasName(s, name) && s.dataset.empty === 'false');
-  }
-
-  function setSlot(slot, card) {
-    // Image src: prefer evolution art if present, else normal medium
-    const imgSrc = card.iconUrls?.evolutionMedium || card.iconUrls?.medium || '';
-    const thumb = slot.querySelector('.thumb');
-    thumb.innerHTML = imgSrc
-      ? `<img src="${imgSrc}" alt="${card.name}" loading="lazy">`
-      : `<div class="placeholder"></div>`;
-
-    slot.querySelector('.slot-name').textContent = card.name;
-    slot.querySelector('.tag').textContent = `${card.rarity ?? 'Card'} • ${card.elixirCost ?? '?'}⚡`;
-    slot.dataset.empty = 'false';
-    slot.classList.add('filled');
-  }
-
-  function addToNextSlot() {
-    const query = input.value.trim();
-    if (!query) {
-      wiggle(addBtn);
-      return;
-    }
-
-    const card = getCardByQuery(query);
-    if (!card) {
-      wiggle(input);
-      return;
-    }
-
-    if (deckAlreadyHas(card.name)) {
-      // optional: alert / wiggle to indicate duplicate
-      wiggle(addBtn);
-      return;
-    }
-
-    const target = slots.find(s => s.dataset.empty === 'true');
-    if (!target) {
-      wiggle(addBtn);
-      return; // deck full
-    }
-
-    setSlot(target, card);
-    input.value = '';
-  }
-
-  function wiggle(el) {
-    el.classList.add('shake');
-    setTimeout(() => el.classList.remove('shake'), 350);
-  }
-
-  // Events: click Add or press Enter
-  addBtn.addEventListener('click', addToNextSlot);
-  input.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') addToNextSlot();
-  });
-
-  // Optional: click a filled slot to clear it (handy for testing)
-  slots.forEach(slot => {
-    slot.addEventListener('click', () => {
-      if (slot.dataset.empty === 'false') {
-        slot.querySelector('.thumb').innerHTML = '<div class="placeholder"></div>';
-        slot.querySelector('.slot-name').textContent = 'Empty';
-        slot.querySelector('.tag').textContent = 'Type';
-        slot.dataset.empty = 'true';
-        slot.classList.remove('filled');
-      }
-    });
-  });
-</script>
+<script src="main.js" defer></script>
   </body>
 </html>
