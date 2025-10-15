@@ -6,6 +6,14 @@ const app = express();
 const connectDB = require('./db');
 connectDB();
 
+// CORS middleware - allow frontend to call API
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
+
 // This lets your server understand JSON
 app.use(express.json());
 
@@ -21,13 +29,9 @@ app.use('/api/decks', require('./routes/deckRoutes'));
 const topPlayersRoutes = require('./routes/topPlayersRoutes');
 app.use('/api/top-players', topPlayersRoutes);
 
-// This is where your prediction route will go
-app.post('/predict', (req, res) => {
-  const { cards } = req.body;
-
-  // For now, just send back the same cards
-  res.json({ predictedDeck: cards });
-});
+// Prediction routes
+const predictionRoutes = require('./routes/predictionRoutes');
+app.use('/api/predict', predictionRoutes);
 
 // Start the server
 app.listen(5000, () => {

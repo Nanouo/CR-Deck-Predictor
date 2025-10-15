@@ -123,7 +123,8 @@
       "medium": "https://api-assets.clashroyale.com/cards/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png",
       "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["Ice Spirit", "Fire Spirit", "Electro Spirit", "Heal Spirit"]
   },
   {
     "name": "Valkyrie",
@@ -341,7 +342,8 @@
       "medium": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png",
       "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["Skeletons", "Fire Spirit", "Electro Spirit", "Heal Spirit"]
   },
   {
     "name": "Fire Spirit",
@@ -351,7 +353,8 @@
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/16-BqusVvynIgYI8_Jci3LDC-r8AI_xaIYLgXqtlmS8.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["Skeletons", "Ice Spirit", "Electro Spirit", "Heal Spirit"]
   },
   {
     "name": "Miner",
@@ -820,7 +823,8 @@
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/WKd4-IAFsgPpMo7dDi9sujmYjRhOMEWiE07OUJpvD9g.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["Skeletons", "Ice Spirit", "Fire Spirit", "Heal Spirit"]
   },
   {
     "name": "Electro Giant",
@@ -1079,7 +1083,8 @@
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
     },
-    "rarity": "rare"
+    "rarity": "rare",
+    "substitutes": ["Poison", "Vines"]
   },
   {
     "name": "Arrows",
@@ -1089,7 +1094,8 @@
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["Vines", "The Log", "Giant Snowball"]
   },
   {
     "name": "Rage",
@@ -1138,6 +1144,7 @@
     "name": "Mirror",
     "id": 28000006,
     "maxLevel": 9,
+    "elixirCost": 0,
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png"
     },
@@ -1163,7 +1170,8 @@
       "medium": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
       "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["The Log", "Barbarian Barrel", "Giant Snowball"]
   },
   {
     "name": "Poison",
@@ -1194,7 +1202,8 @@
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
     },
-    "rarity": "legendary"
+    "rarity": "legendary",
+    "substitutes": ["Arrows", "Zap", "Giant Snowball", "Barbarian Barrel"]
   },
   {
     "name": "Tornado",
@@ -1244,7 +1253,8 @@
     "iconUrls": {
       "medium": "https://api-assets.clashroyale.com/cards/300/GITl06sa2nGRLPvboyXbGEv5E3I-wAwn1Eqa5esggbc.png"
     },
-    "rarity": "rare"
+    "rarity": "rare",
+    "substitutes": ["Skeletons", "Ice Spirit", "Fire Spirit", "Electro Spirit"]
   },
   {
     "name": "Giant Snowball",
@@ -1256,7 +1266,8 @@
       "medium": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png",
       "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png"
     },
-    "rarity": "common"
+    "rarity": "common",
+    "substitutes": ["Arrows", "Zap"]
   },
   {
     "name": "Royal Delivery",

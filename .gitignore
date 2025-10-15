@@ -1,2 +1,21 @@
+# Dependencies
 node_modules/
+
+# Environment variables
 .env
+
+# Test outputs
+test-output/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
