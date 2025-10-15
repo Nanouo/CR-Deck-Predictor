@@ -158,11 +158,98 @@
 
     setSlot(target, card);
     input.value = '';
+    
+    // Fetch predictions after adding a card
+    fetchPredictions();
   }
 
   function wiggle(el) {
     el.classList.add('shake');
     setTimeout(() => el.classList.remove('shake'), 350);
+  }
+
+  // Fetch card predictions from backend
+  async function fetchPredictions() {
+    const selectedCards = slots
+      .filter(s => s.dataset.empty === 'false')
+      .map(s => s.querySelector('.slot-name').textContent);
+    
+    console.log('🎯 Fetching predictions for:', selectedCards);
+    
+    // Clear suggestions if deck is empty or full
+    if (selectedCards.length === 0 || selectedCards.length === 8) {
+      console.log('⚠️ Clearing suggestions (empty or full deck)');
+      clearSuggestions();
+      return;
+    }
+
+    try {
+      console.log('📡 Calling API...');
+      const response = await fetch('http://localhost:5000/api/predict/cards', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ cards: selectedCards })
+      });
+
+      const data = await response.json();
+      console.log('✅ API Response:', data);
+      
+      if (data.suggestedCards && data.suggestedCards.length > 0) {
+        console.log('📋 Displaying', data.suggestedCards.length, 'suggestions');
+        displaySuggestions(data.suggestedCards);
+      } else {
+        console.log('⚠️ No suggestions returned');
+        clearSuggestions();
+      }
+    } catch (error) {
+      console.error('❌ Failed to fetch predictions:', error);
+      clearSuggestions();
+    }
+  }
+
+  // Display predicted cards in suggestion boxes
+  function displaySuggestions(suggestions) {
+    const suggestionSlots = document.querySelectorAll('.suggestion-card');
+    
+    suggestions.forEach((suggestion, index) => {
+      if (index < suggestionSlots.length) {
+        const slot = suggestionSlots[index];
+        // API returns { card: "Name", frequency: 40 } not { name: "Name" }
+        const cardName = suggestion.card || suggestion.name;
+        const card = ALL_CARDS.find(c => norm(c.name) === norm(cardName));
+        
+        if (card) {
+          const imgSrc = card.iconUrls?.evolutionMedium || card.iconUrls?.medium || '';
+          const thumb = slot.querySelector('.thumb');
+          thumb.innerHTML = imgSrc
+            ? `<img src="${imgSrc}" alt="${card.name}" loading="lazy">`
+            : `<div class="placeholder"></div>`;
+          
+          slot.querySelector('.suggestion-name').textContent = card.name;
+          slot.querySelector('.frequency').textContent = `${suggestion.frequency}%`;
+          slot.dataset.cardName = card.name;
+        }
+      }
+    });
+
+    // Clear remaining slots if fewer than 5 suggestions
+    for (let i = suggestions.length; i < 5; i++) {
+      clearSuggestionSlot(suggestionSlots[i]);
+    }
+  }
+
+  // Clear all suggestion boxes
+  function clearSuggestions() {
+    const suggestionSlots = document.querySelectorAll('.suggestion-card');
+    suggestionSlots.forEach(slot => clearSuggestionSlot(slot));
+  }
+
+  // Clear a single suggestion slot
+  function clearSuggestionSlot(slot) {
+    slot.querySelector('.thumb').innerHTML = '<div class="placeholder"></div>';
+    slot.querySelector('.suggestion-name').textContent = '-';
+    slot.querySelector('.frequency').textContent = '0%';
+    slot.dataset.cardName = '';
   }
 
   // Events: click Add or press Enter
@@ -180,7 +267,36 @@
         slot.querySelector('.tag').textContent = 'Type';
         slot.dataset.empty = 'true';
         slot.classList.remove('filled');
+        
+        // Fetch new predictions after removing a card
+        fetchPredictions();
       }
+    });
+  });
+
+  // Click suggestion cards to add them to the deck
+  const suggestionSlots = document.querySelectorAll('.suggestion-card');
+  suggestionSlots.forEach(suggestionSlot => {
+    suggestionSlot.addEventListener('click', () => {
+      const cardName = suggestionSlot.dataset.cardName;
+      if (!cardName || cardName === '') return;
+
+      const card = ALL_CARDS.find(c => norm(c.name) === norm(cardName));
+      if (!card) return;
+
+      if (deckAlreadyHas(card.name)) {
+        wiggle(suggestionSlot);
+        return;
+      }
+
+      const target = slots.find(s => s.dataset.empty === 'true');
+      if (!target) {
+        wiggle(suggestionSlot);
+        return;
+      }
+
+      setSlot(target, card);
+      fetchPredictions();
     });
   });
 </script>

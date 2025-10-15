@@ -11,9 +11,9 @@ connectDB();
 // --- Middleware ---
 app.use(express.json());
 
-// (Optional CORS — not required if client is served by same server)
-// const cors = require('cors');
-// app.use(cors());
+// Enable CORS for development
+const cors = require('cors');
+app.use(cors());
 
 // --- API routes ---
 app.use('/api', require('./routes/cardRoutes'));          // e.g., /api/cards
