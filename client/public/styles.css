@@ -25,11 +25,13 @@ header {
     border-bottom:1px solid #171a22; 
 }
 
-.topbar { 
-    display:flex; 
-    align-items:center; 
-    justify-content:space-between; 
-    height:64px; 
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background: #05070a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .brand { 
@@ -39,13 +41,33 @@ header {
     font-weight:700; 
 }
 
-.logo { 
-    width:34px; 
-    height:34px; 
-    border-radius:10px; 
-    display:grid; 
-    place-items:center; 
-    background:linear-gradient(135deg,var(--accent),var(--accent-2)); 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.logo span {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  color: #9ee8ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #00c8ff;
 }
 
 .goblin-right {
@@ -300,6 +322,23 @@ header {
     padding:4px 8px; 
     border-radius:6px; 
     border:1px solid #243049; 
+}
+
+.about-section {
+  margin-top: 60px;
+  padding: 40px;
+  background: #0a0d13;
+  border-radius: 12px;
+  color: #ccc;
+}
+
+.about-section h2 {
+  color: #00c8ff;
+  margin-bottom: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 footer { 
