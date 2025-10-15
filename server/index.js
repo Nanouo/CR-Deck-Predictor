@@ -15,6 +15,9 @@ app.use(express.json());
 const cors = require('cors');
 app.use(cors());
 
+app.use('/localdata', express.static(path.join(__dirname, 'localdata')));
+
+
 // --- API routes ---
 app.use('/api', require('./routes/cardRoutes'));          // e.g., /api/cards
 app.use('/api/decks', require('./routes/deckRoutes'));
