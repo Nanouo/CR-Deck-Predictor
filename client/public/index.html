@@ -15,38 +15,26 @@
         <div>CR Deck Predictor</div>
       </div>
       <nav aria-label="primary" class="nav">
-        <a href="#decks">Decks</a>
-        <a href="#about">About</a>
+        <a href="#decks"></a>
+        <a href="#about"></a>
       </nav>
     </div>  
   </header>
 
   <main>
     <section class="hero container">
-      <h1 class="title">Welcome to <span class="grad">CR Deck Predictor</span></h1>
-      <p class="subtitle">Search a card and click <strong>Add</strong> to drop it into the next empty slot. (Pure front‑end demo; wire to your backend later.)</p>
-      <div class="divider"></div>
+      <h1 class="title compact">CR Deck Predictor</h1>
+      <p class="subtitle compact">Search and add cards to your deck</p>
       <div class="search-bar center">
         <div class="input-group">
           <input id="cardSearch" type="text" placeholder="Search cards..." />
           <button id="addBtn" type="button">Add</button>
         </div>
       </div>
-
-
-      <div class="filters" aria-hidden="true">
-        <span class="chip">All</span>
-        <span class="chip">Beatdown</span>
-        <span class="chip">Control</span>
-        <span class="chip">Cycle</span>
-        <span class="chip">Miner</span>
-        <span class="chip">Hog</span>
-        <span class="chip">Log Bait</span>
-      </div>
     </section>
 
     <section id="decks" class="container">
-      <div class="grid">
+      <div class="grid deck-grid">
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 1</span></div><div class="row"><span class="tag">Type</span></div></div></article>
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 2</span></div><div class="row"><span class="tag">Type</span></div></div></article>
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 3</span></div><div class="row"><span class="tag">Type</span></div></div></article>
@@ -55,6 +43,47 @@
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 6</span></div><div class="row"><span class="tag">Type</span></div></div></article>
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 7</span></div><div class="row"><span class="tag">Type</span></div></div></article>
         <article class="card" data-empty="true"><div class="thumb"><div class="placeholder"></div></div><div class="meta"><div class="name"><span class="slot-name">Card 8</span></div><div class="row"><span class="tag">Type</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="suggestions-section container">
+      <h2 class="suggestions-title">Predicted Cards</h2>
+      <div class="grid suggestions-grid">
+        <article class="suggestion-card" data-slot="1">
+          <div class="thumb"><div class="placeholder"></div></div>
+          <div class="meta">
+            <div class="name"><span class="suggestion-name">-</span></div>
+            <div class="row"><span class="frequency">0%</span></div>
+          </div>
+        </article>
+        <article class="suggestion-card" data-slot="2">
+          <div class="thumb"><div class="placeholder"></div></div>
+          <div class="meta">
+            <div class="name"><span class="suggestion-name">-</span></div>
+            <div class="row"><span class="frequency">0%</span></div>
+          </div>
+        </article>
+        <article class="suggestion-card" data-slot="3">
+          <div class="thumb"><div class="placeholder"></div></div>
+          <div class="meta">
+            <div class="name"><span class="suggestion-name">-</span></div>
+            <div class="row"><span class="frequency">0%</span></div>
+          </div>
+        </article>
+        <article class="suggestion-card" data-slot="4">
+          <div class="thumb"><div class="placeholder"></div></div>
+          <div class="meta">
+            <div class="name"><span class="suggestion-name">-</span></div>
+            <div class="row"><span class="frequency">0%</span></div>
+          </div>
+        </article>
+        <article class="suggestion-card" data-slot="5">
+          <div class="thumb"><div class="placeholder"></div></div>
+          <div class="meta">
+            <div class="name"><span class="suggestion-name">-</span></div>
+            <div class="row"><span class="frequency">0%</span></div>
+          </div>
+        </article>
       </div>
     </section>
   </main>
