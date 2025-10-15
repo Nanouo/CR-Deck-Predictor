@@ -91,7 +91,6 @@ function deckAlreadyHas(name) {
 
 function setSlot(slot, card) {
   const imgSrc =
-    card?.iconUrls?.evolutionMedium ||
     card?.iconUrls?.medium ||
     card?.iconUrls?.large ||
     '';
@@ -140,7 +139,7 @@ function displaySuggestions(suggestions) {
                  ALL_CARDS.find(c => getName(c) === tidy(cardName));
     if (!card) return;
 
-    const imgSrc = card.iconUrls?.evolutionMedium || card.iconUrls?.medium || '';
+    const imgSrc = card.iconUrls?.medium || '';
     const thumb  = slot.querySelector('.thumb');
     thumb.innerHTML = imgSrc
       ? `<img src="${imgSrc}" alt="${displayName(card)}" loading="lazy">`
